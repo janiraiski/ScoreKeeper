@@ -23,9 +23,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:gravity="center_horizontal"
-                android:text="@string/string_home"
                 android:textColor="@android:color/black"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:text="@string/string_home" />
 
             <View
                 android:layout_width="match_parent"
@@ -40,9 +40,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:text="@string/string_goals"
+                android:textSize="14sp"
                 android:textColor="@android:color/black"
-                android:textSize="14sp" />
+                android:text="@string/string_goals" />
 
             <TextView
                 android:id="@+id/home_goals"
@@ -51,15 +51,15 @@
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
                 android:textColor="@android:color/black"
-                android:textSize="36sp" />
+                android:textSize="42sp" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:onClick="homeGoal"
-                android:text="@string/button_goal_string"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                android:text="@string/button_goal_string" />
 
             <View
                 android:layout_width="match_parent"
@@ -74,9 +74,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:text="@string/string_penalties"
+                android:textSize="14sp"
                 android:textColor="@android:color/black"
-                android:textSize="14sp" />
+                android:text="@string/string_penalties" />
 
             <TextView
                 android:id="@+id/home_penalties"
@@ -85,7 +85,7 @@
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
                 android:textColor="@android:color/black"
-                android:textSize="30sp" />
+                android:textSize="34sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -96,8 +96,8 @@
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
                     android:layout_marginRight="4dp"
+                    android:layout_marginEnd="4dp"
                     android:layout_weight="1"
                     android:onClick="homeTwoPenalties"
                     android:text="@string/button_2min_penalty_string" />
@@ -135,8 +135,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:gravity="center_horizontal"
-                android:text="@string/string_away"
                 android:textColor="@android:color/black"
+                android:text="@string/string_away"
                 android:textSize="20sp" />
 
             <View
@@ -152,8 +152,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:text="@string/string_goals"
                 android:textColor="@android:color/black"
+                android:text="Goals"
                 android:textSize="14sp" />
 
             <TextView
@@ -163,14 +163,14 @@
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
                 android:textColor="@android:color/black"
-                android:textSize="36sp" />
+                android:textSize="42sp" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:onClick="awayGoal"
-                android:text="@string/button_goal_string" />
+                android:text="@string/string_goals" />
 
             <View
                 android:layout_width="match_parent"
@@ -185,8 +185,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:text="@string/string_penalties"
                 android:textColor="@android:color/black"
+                android:text="Penalties in minutes"
                 android:textSize="14sp" />
 
             <TextView
@@ -196,7 +196,7 @@
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
                 android:textColor="@android:color/black"
-                android:textSize="30sp" />
+                android:textSize="34sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -207,8 +207,8 @@
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
                     android:layout_marginRight="4dp"
+                    android:layout_marginEnd="4dp"
                     android:layout_weight="1"
                     android:onClick="awayTwoPenalties"
                     android:text="@string/button_2min_penalty_string" />
@@ -228,17 +228,17 @@
 
     </LinearLayout>
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:onClick="resetEverything"
-            android:text="@string/button_reset_string" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:onClick="resetEverything"
+                android:text="@string/button_reset_string" />
 
-    </RelativeLayout>
+        </RelativeLayout>
 
 </LinearLayout>

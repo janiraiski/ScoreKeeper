@@ -14,6 +14,11 @@ public class MainActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        displayForHome(homeGoal);
+        displayForHomePenalties(homePenalties);
+        displayForAway(awayGoal);
+        displayForAwayPenalties(awayPenalties);
     }
 
     public void homeGoal(View view)

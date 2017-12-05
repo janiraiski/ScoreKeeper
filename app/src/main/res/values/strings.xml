@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Score Keeper</string>
+    <string name="button_reset_string">Reset</string>
+    <string name="button_5min_penalty_string">5 min penalty</string>
+    <string name="button_2min_penalty_string">2 min penalty</string>
+    <string name="string_home">Home</string>
+    <string name="string_goals">Goals</string>
+    <string name="button_goal_string">Goal</string>
+    <string name="string_penalties">Penalties in minutes</string>
+    <string name="string_away">Away</string>
 </resources>
